@@ -13,14 +13,19 @@
     align-items: center;
     height: 100vh;
     margin: 0;
+    overflow: auto; /* Allows the content to be scrollable if it exceeds the viewport height */
   }
   .mac-window {
     border: 1px solid #6DE2F1;
     border-radius: 8px;
     padding: 20px;
-    width: 600px;
+    width: 80%;
+    max-width: 600px;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.743);
     background: linear-gradient(180deg, #2a2139 75%, #34294f);
+    margin: auto; /* Centers the mac-window vertically */
+    max-height: 90vh; /* Ensures the mac-window does not exceed 90% of the viewport height */
+    overflow: auto; /* Allows the content inside the mac-window to be scrollable */
   }
   .mac-window-header {
     display: flex;
@@ -64,11 +69,25 @@
     background: #00000000;
     border-radius: 4px;
     font-family: 'Courier New', Courier, monospace;
-
   }
   .mac-window pre code {
     white-space: pre-wrap;
     word-wrap: break-word;
+  }
+
+  @media (max-width: 600px) {
+    .mac-window {
+      width: 90%;
+      padding: 10px;
+      max-height: 85vh; /* Adjusts the max-height for mobile screens */
+    }
+    .mac-window-header .title {
+      font-size: 12px;
+    }
+    .mac-window-header .mac-buttons div {
+      width: 10px;
+      height: 10px;
+    }
   }
 </style>
 </head>
