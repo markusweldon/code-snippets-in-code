@@ -1,7 +1,7 @@
 # MacOS-like Code Snippets In Code
 An editable code based dialogue that showcases code snippets within a stylized, macOS-like terminal window. Easy to edit with your own code and ideal for presentations, blogs, documentation where a modern and tech-savvy aesthetic is desired 😎
 
-[Live Preview (Deployed on Vercel)](https://markusweldon-code-snippets-in-code.vercel.app/) 
+[Live Preview (Deployed on Vercel)](https://code-snippets-in-code.vercel.app/) 
 
 ![Project Screenshot](./screenshot.png) 
 
