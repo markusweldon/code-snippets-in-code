@@ -1,15 +1,13 @@
-# code-snippets-in-code
-An interactive code based dialogue that showcases code snippets within a stylized, macOS-like terminal window. Easy to edit with your own code and Ideal for presentations, blogs, documentation where a modern and tech-savvy aesthetic is desired
+# MacOS-like Code Snippets In Code
+A editable code based dialogue that showcases code snippets within a stylized, macOS-like terminal window. Easy to edit with your own code and ideal for presentations, blogs, documentation where a modern and tech-savvy aesthetic is desired 😎
 
-# Markus Weldon MacOS-like Code Snippet
+[Live Preview (Deployed on Vercel)](https://markusweldon-code-snippets-in-code.vercel.app/) 
 
 ![Project Screenshot](./screenshot.png) 
 
-TBD [Live Preview (Deployed on Vercel)](#) 
-
 ## Overview
 
-This project showcases a MacOS-like code snippet display styled with a vibrant Synthwave '84 theme. It is a neat and visually appealing way to present code snippets on your website or portfolio. The project is structured as a single HTML file with embedded CSS styles and JavaScript code.
+This project showcases a MacOS-like code snippet display styled with a vibrant Synthwave '84 theme. It is a neat and visually appealing way to present code snippets on your website or portfolio. The project is structured as a single HTML file with embedded CSS styles and uses a JavaScript file `prism.min.js` for syntax highlighting from the Prism.js project.
 
 ## Features
 
