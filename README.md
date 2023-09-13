@@ -3,7 +3,7 @@ An editable code based dialogue that showcases code snippets within a stylized, 
 
 [Live Preview (Deployed on Vercel)](https://code-snippets-in-code.vercel.app/) 
 
-![Project Screenshot](./screenshot.png) 
+![Project Screenshot](./screenshot.jpg) 
 
 ## Overview
 
