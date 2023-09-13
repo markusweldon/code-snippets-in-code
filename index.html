@@ -22,7 +22,7 @@
     width: 80%;
     max-width: 600px;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.743);
-    background: linear-gradient(180deg, #2a2139 75%, #34294f);
+    background: linear-gradient(180deg, #2a2139 50%, #34294f);
     margin: auto; /* Centers the mac-window vertically */
     max-height: 90vh; /* Ensures the mac-window does not exceed 90% of the viewport height */
     overflow: auto; /* Allows the content inside the mac-window to be scrollable */
@@ -103,9 +103,8 @@
     <span class="title">my-code.js</span>
   </div>
   <pre class="language-javascript"><code class="language-javascript">
-// Imagine your cool code snippet here 😎
+// Imagine your awesome code snippet here 😎
 const hello = "Hello, World!";
-console.log(hello);
 
 // Function for greeting based on the time of day ⏱️
 function generateGreeting() {
@@ -113,22 +112,22 @@ function generateGreeting() {
     let greeting;
 
     if (currentHour < 12) {
-        greeting = "Good morning, world!";
+        greeting = "Good morning,";
     } else if (currentHour < 18) {
-        greeting = "Good afternoon, world!";
+        greeting = "Good afternoon,";
     } else {
-        greeting = "Good evening, world!";
+        greeting = "Good evening,";
     }
 
     return greeting;
 }
 
 // Let's impress everyone with a witty log statement 👨‍💻
-console.log(`Markus says: ${generateGreeting()} Let's code something awesome today! 👨‍💻`);
+console.log(`Markus says: ${hello} ${generateGreeting()} let's code something awesome together! 👨‍💻`);
   </code></pre>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+<script src="./prism.min.js"></script>
 
 </body>
 </html>
