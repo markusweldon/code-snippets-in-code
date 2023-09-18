@@ -13,7 +13,6 @@
     align-items: center;
     height: 100vh;
     margin: 0;
-    overflow: auto; /* Allows the content to be scrollable if it exceeds the viewport height */
   }
   .mac-window {
     border: 1px solid #6DE2F1;
@@ -24,8 +23,6 @@
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.743);
     background: linear-gradient(180deg, #2a2139 50%, #34294f);
     margin: auto; /* Centers the mac-window vertically */
-    max-height: 90vh; /* Ensures the mac-window does not exceed 90% of the viewport height */
-    overflow: auto; /* Allows the content inside the mac-window to be scrollable */
   }
   .mac-window-header {
     display: flex;
@@ -69,6 +66,8 @@
     background: #00000000;
     border-radius: 4px;
     font-family: 'Courier New', Courier, monospace;
+    max-height: 80vh; /* Set a max-height */
+    overflow-y: auto; /* Make it scrollable */
   }
   .mac-window pre code {
     white-space: pre-wrap;
@@ -79,7 +78,6 @@
     .mac-window {
       width: 90%;
       padding: 10px;
-      max-height: 85vh; /* Adjusts the max-height for mobile screens */
     }
     .mac-window-header .title {
       font-size: 12px;
@@ -102,8 +100,7 @@
     </div>
     <span class="title">my-code.js</span>
   </div>
-  <pre class="language-javascript"><code class="language-javascript">
-// Imagine your awesome code snippet here 😎
+    <pre class="language-javascript"><code class="language-javascript">// Imagine your awesome code snippet here 😎
 const hello = "Hello, World!";
 
 // Function for greeting based on the time of day ⏱️
@@ -123,8 +120,7 @@ function generateGreeting() {
 }
 
 // Let's impress everyone with a witty log statement 👨‍💻
-console.log(`Markus says: ${hello} ${generateGreeting()} let's code something awesome together! 👨‍💻`);
-  </code></pre>
+console.log(`Markus says: ${hello} ${generateGreeting()} let's code something awesome together! 👨‍💻`);</code></pre>
 </div>
 
 <script src="./prism.min.js"></script>
